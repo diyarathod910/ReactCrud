@@ -219,7 +219,7 @@ export const Home = () => {
     const exploreProducts = productArray.filter((item) => item.category === "explore1");
 
 
-    const [wishlist] = useState(() => {
+    const [wishlist,setWishlist] = useState(() => {
         const stored = localStorage.getItem("wishlist");
         return stored ? JSON.parse(stored) : [];
     });
