@@ -25,7 +25,7 @@ export const NotFound = () => {
                 <header className="w-full flex flex-col items-center justify-center bg-[#000000] py-3">
                     <div className="w-[80%] flex items-center justify-between">
                         <div className="w-[70%] flex items-center justify-center">
-                            <p className="text-white font-[poppins] text-[14px] ">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+                            <p className="text-red-200 font-[poppins] text-[14px] ">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
                         </div>
                         <div className="w-[20%]">
                             <select name="" id="" className=" font-[Poppins] font-regular text-[14px] text-[#fff] bg-[#000]">
