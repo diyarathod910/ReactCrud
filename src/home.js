@@ -1,3 +1,5 @@
+import React from "react";
+
 import { FaArrowRight } from "react-icons/fa";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";

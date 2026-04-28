@@ -1,3 +1,5 @@
+import React from "react";
+
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import signUp from './Assets/sign_up.png';
