@@ -103,7 +103,7 @@ export const Cart = () => {
                                 )}
                             </div>
                             <FaCartShopping className="text-lg cursor-pointer" />
-                            <CiUser onClick={()=>navigate("/account")} className="text-lg cursor-pointer" />
+                            <CiUser onClick={() => navigate("/account")} className="text-lg cursor-pointer" />
 
                         </div>
                     </div>
@@ -170,7 +170,7 @@ export const Cart = () => {
                             </div>
                         ))}
                         <div className="w-full flex justify-between">
-                            <button onClick={()=>navigate('/home')} className="w-[20%] p-5 font-[Poppins] font-medium text-[16px] text-[#000000] border-2 border-slate-400 rounded-[4px]  ">
+                            <button onClick={() => navigate('/home')} className="w-[20%] p-5 font-[Poppins] font-medium text-[16px] text-[#000000] border-2 border-slate-400 rounded-[4px]  ">
                                 Return To Shop
                             </button>
                             <button className="w-[20%] p-5 font-[Poppins] font-medium text-[16px] text-[#000000] border-2 border-slate-400 rounded-[4px]">
@@ -201,13 +201,13 @@ export const Cart = () => {
                                 <p className="font-[Poppins] font-medium text-[16px] text-[#000000]">${subtotal}</p>
                             </div>
                             <div className="flex justify-center">
-                                <button onClick={()=>navigate('/checkout')}  className="w-[70%] p-5 bg-[#DB4444] font-[Poppins] font-medium text-[16px] text-[#ffffff]">Procees to checkout</button>
+                                <button onClick={() => navigate('/checkout')} className="w-[70%] p-5 bg-[#DB4444] font-[Poppins] font-medium text-[16px] text-[#ffffff]">Procees to checkout</button>
                             </div>
                         </div>
                     </div>
                 </section>
                 {/* footer */}
-                <footer className="w-full bg-[#000] flex justify-center items-center flex-col text-white pt-10  mt-[5%] gap-[30px]">
+                <footer className="w-full bg-[#000] flex justify-center items-center flex-col text-white pt-10 mt-[10%] gap-[30px]">
                     <div className="w-[80%] flex justify-between items-center pt-8">
                         <div className="w-[15%] flex flex-col gap-[20px]">
                             <h1 className="font-[Inter] text-[24px] font-bold">Exclusive</h1>
@@ -230,18 +230,18 @@ export const Cart = () => {
                         </div>
                         <div className="w-[15%] flex flex-col gap-[13px]">
                             <h1 className="font-[Inter] text-[24px] font-bold">Account</h1>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">My Account</a>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">Login / Register</a>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">Cart</a>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">Wishlist</a>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">Shop</a>
+                            <a href="account" className="font-[Poppins] text-[16px] font-regular">My Account</a>
+                            <a href="register" className="font-[Poppins] text-[16px] font-regular">Login / Register</a>
+                            <a href="cart" className="font-[Poppins] text-[16px] font-regular">Cart</a>
+                            <a href="wishlist" className="font-[Poppins] text-[16px] font-regular">Wishlist</a>
+                            <a href="product_details" className="font-[Poppins] text-[16px] font-regular">Shop</a>
                         </div>
                         <div className="w-[10%] flex flex-col gap-[20px]">
                             <h1 className="font-[Inter] text-[24px] font-bold">Quick Link</h1>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">Privacy Policy</a>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">Terms Of Use</a>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">FAQ</a>
-                            <a href="#" className="font-[Poppins] text-[16px] font-regular">Contact</a>
+                            <button className="font-[Poppins] text-[16px] font-regular">Privacy Policy</button>
+                            <button className="font-[Poppins] text-[16px] font-regular">Terms Of Use</button>
+                            <button className="font-[Poppins] text-[16px] font-regular">FAQ</button>
+                            <button className="font-[Poppins] text-[16px] font-regular">Contact</button>
                         </div>
                         <div className="w-[20%] flex flex-col gap-[20px]">
                             <h1 className="font-[Inter] text-[24px] font-bold">Download App</h1>
