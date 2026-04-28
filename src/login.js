@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import signUp from './Assets/sign_up.png';
-import { FcGoogle } from "react-icons/fc";
+
 import { IoMdSend } from "react-icons/io";
 import qrcode from './Assets/qrcode.png';
 import playstore from './Assets/playstore.png';

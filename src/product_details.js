@@ -25,7 +25,7 @@ import { useNavigate } from "react-router";
 export const ProductDetail = () => {
     const navigate = useNavigate()
 
-    const [details, setDetails] = useState(JSON.parse(localStorage.getItem("Product")));
+    const [details] = useState(JSON.parse(localStorage.getItem("Product")));
     console.log(details);
 
     const fetched_array = JSON.parse(localStorage.getItem("product_array"));

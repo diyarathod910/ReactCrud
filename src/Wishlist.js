@@ -1,10 +1,10 @@
 import React from "react";
 
 import { useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
+
 import { IoIosHeartEmpty } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
-import { FaHeart, FaEye, FaStar } from "react-icons/fa";
+import { FaEye, FaStar } from "react-icons/fa";
 import { IoMdSend } from "react-icons/io";
 import qrcode from './Assets/qrcode.png';
 import playstore from './Assets/playstore.png';
@@ -112,7 +112,7 @@ export const Wishlist = () => {
                         {/* product card */}
                         <div className="flex flex-wrap gap-6">
                             {wishlist.map((item, index) => (
-                                <div className="w-[23%] bg-white rounded  flex flex-col">
+                                <div className="w-[23%] bg-white rounded  flex flex-col" key={index}>
 
                                     {/* IMAGE BOX */}
                                     <div className="bg-gray-100 p-6 h-[220px] flex items-center justify-center relative">
@@ -177,7 +177,7 @@ export const Wishlist = () => {
                         {/* product card */}
                         <div className="flex flex-wrap gap-6">
                             {relatedProduct.map((item, index) => (
-                                <div className="w-[23%] bg-white rounded  flex flex-col">
+                                <div className="w-[23%] bg-white rounded  flex flex-col" key={index}>
 
                                     {/* IMAGE BOX */}
                                     <div className="bg-gray-100 p-6 h-[220px] flex items-center justify-center relative">

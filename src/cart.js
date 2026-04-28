@@ -137,9 +137,9 @@ export const Cart = () => {
                             </p>
                         </div>
 
-                        {cart.map((item) => (
+                        {cart.map((item,index) => (
 
-                            <div className="w-full flex justify-between items-center p-5 shadow-[0px_4px_20px_#0000000D] rounded-md">
+                            <div className="w-full flex justify-between items-center p-5 shadow-[0px_4px_20px_#0000000D] rounded-md" key={index}>
                                 {/* Product */}
                                 <div key={item.id} className="flex items-center gap-4 w-[35%] relative">
                                     <button onClick={() => removeFromCart(item.id)} className="absolute -top-2 -left-2 bg-red-500 text-white rounded-full p-1">
