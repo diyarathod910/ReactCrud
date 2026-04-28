@@ -19,7 +19,7 @@ import { MdOutlineCopyright } from "react-icons/md";
 
 export const Contact = () => {
     const navigate = useNavigate();
-    const [wishlist, setWishlist] = useState(() => {
+    const [wishlist] = useState(() => {
         const stored = localStorage.getItem("wishlist");
         return stored ? JSON.parse(stored) : [];
     });

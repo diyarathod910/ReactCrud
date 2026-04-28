@@ -35,7 +35,7 @@ export const ProductDetail = () => {
         (product) => product.category === "sales"
     );
 
-    const [wishlist, setWishlist] = useState(() => {
+    const [wishlist] = useState(() => {
         const stored = localStorage.getItem("wishlist");
         return stored ? JSON.parse(stored) : [];
     });

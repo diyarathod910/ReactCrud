@@ -17,7 +17,7 @@ import { MdOutlineCopyright } from "react-icons/md";
 import { FaTimes } from "react-icons/fa";
 export const Cart = () => {
     const navigate = useNavigate();
-    const [wishlist, setWishlist] = useState(() => {
+    const [wishlist] = useState(() => {
         const stored = localStorage.getItem("wishlist");
         return stored ? JSON.parse(stored) : [];
     });

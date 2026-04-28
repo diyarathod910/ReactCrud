@@ -17,7 +17,7 @@ import { MdOutlineCopyright } from "react-icons/md";
 
 export const NotFound = () => {
     const navigate = useNavigate();
-    const [wishlist, setWishlist] = useState(() => {
+    const [wishlist] = useState(() => {
         const stored = localStorage.getItem("wishlist");
         return stored ? JSON.parse(stored) : [];
     });

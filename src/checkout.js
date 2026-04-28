@@ -21,7 +21,7 @@ import check_4 from "./Assets/check-4.png";
 
 export const Checkout = () => {
     const navigate = useNavigate();
-    const [wishlist, setWishlist] = useState(() => {
+    const [wishlist] = useState(() => {
         const stored = localStorage.getItem("wishlist");
         return stored ? JSON.parse(stored) : [];
     });

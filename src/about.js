@@ -31,7 +31,7 @@ import company_3 from "./Assets/carousel-3.png";
 
 export const About = () => {
     const navigate = useNavigate();
-    const [wishlist, setWishlist] = useState(() => {
+    const [wishlist] = useState(() => {
         const stored = localStorage.getItem("wishlist");
         return stored ? JSON.parse(stored) : [];
     });
