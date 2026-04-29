@@ -97,16 +97,16 @@ export const Account = () => {
                                 Manage My Account
                             </h1>
                             <div className="pl-8 flex flex-col gap-[10px]">
-                                <a href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] hover:text-[#DB4444] opacity-[50%]">My Profile</a>
-                                <a href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] hover:text-[#DB4444] opacity-[50%]">Address Book</a>
-                                <a href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] hover:text-[#DB4444] opacity-[50%]">My Payment Options</a>
+                                <button href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] hover:text-[#DB4444] opacity-[50%]">My Profile</button>
+                                <button href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] hover:text-[#DB4444] opacity-[50%]">Address Book</button>
+                                <button href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] hover:text-[#DB4444] opacity-[50%]">My Payment Options</button>
                             </div>
                             <h1 className="font-[Poppins] font-medium text-[16px] text-[#000000] ">
                                 My Orders
                             </h1>
                             <div className="pl-8 flex flex-col gap-[10px]">
-                                <a href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] opacity-[50%] hover:text-[#DB4444]  ">My Returns</a>
-                                <a href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] opacity-[50%] hover:text-[#DB4444] ">My Cancellations</a>
+                                <button href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] opacity-[50%] hover:text-[#DB4444]  ">My Returns</button>
+                                <button href="#" className="font-[Poppins] font-medium text-[16px] text-[#000000] opacity-[50%] hover:text-[#DB4444] ">My Cancellations</button>
                             </div>
                             <p className="font-[Poppins] font-medium text-[20px] text-[#000000] ">
                                 My WishList

@@ -337,7 +337,7 @@ export const Home = () => {
                                     Up to 10% off Voucher
                                 </p>
                                 <div className="flex gap-[10px] items-center ">
-                                    <a href='#' className='font-[Poppins] text-[16px] font-Medium text-[#FAFAFA] hover:border-b-2'>Shop Now</a><FaArrowRight className="text-white" />
+                                    <button href='#' className='font-[Poppins] text-[16px] font-Medium text-[#FAFAFA] hover:border-b-2'>Shop Now</button><FaArrowRight className="text-white" />
                                 </div>
                             </div>
                         </div>
@@ -412,7 +412,7 @@ export const Home = () => {
 
                                             <div className="flex flex-col gap-2">
                                                 <button className="bg-white p-2 rounded-full" onClick={(e) => { toggleWishlist(product) }} >
-                                                    <FaHeart size={18} className={wishlist.some(item => item.id == product.id) ? "text-red-500" : "text-gray-400"} />
+                                                    <FaHeart size={18} className={wishlist.some(item => item.id === product.id) ? "text-red-500" : "text-gray-400"} />
                                                 </button>
                                                 <button className="bg-white p-2 rounded-full" onClick={() => { localStorage.setItem("Product", JSON.stringify(product)); navigate('/details') }}>
                                                     <FaEye size={18} />
@@ -499,7 +499,7 @@ export const Home = () => {
 
                                             <div className="flex flex-col gap-2">
                                                 <button className="bg-white p-2 rounded-full" onClick={(e) => { toggleWishlist(product) }} >
-                                                    <FaHeart size={18} className={wishlist.some(item => item.id == product.id) ? "text-red-500" : "text-gray-400"} />
+                                                    <FaHeart size={18} className={wishlist.some(item => item.id === product.id) ? "text-red-500" : "text-gray-400"} />
                                                 </button>
                                                 <button className="bg-white p-2 rounded-full" onClick={() => { localStorage.setItem("Product", JSON.stringify(product)); navigate('/details') }}>
                                                     <FaEye size={18} />
@@ -571,7 +571,7 @@ export const Home = () => {
                             </button>
                         </div>
                         <div className="w-[50%] flex items-center justify-center">
-                            <img src={cat_speaker} className="w-[100%]"></img>
+                            <img src={cat_speaker} alt="speaker" className="w-[100%]"></img>
                         </div>
                     </div>
                 </section>
@@ -606,7 +606,7 @@ export const Home = () => {
 
                                             <div className="flex flex-col gap-2">
                                                 <button className="bg-white p-2 rounded-full" onClick={(e) => { toggleWishlist(product) }} >
-                                                    <FaHeart size={18} className={wishlist.some(item => item.id == product.id) ? "text-red-500" : "text-gray-400"} />
+                                                    <FaHeart size={18} className={wishlist.some(item => item.id === product.id) ? "text-red-500" : "text-gray-400"} />
                                                 </button>
                                                 <button className="bg-white p-2 rounded-full" onClick={() => { localStorage.setItem("Product", JSON.stringify(product)); navigate('/details') }}>
                                                     <FaEye size={18} />

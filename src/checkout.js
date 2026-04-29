@@ -96,16 +96,16 @@ export const Checkout = () => {
                 </nav>
                 <div className="w-full flex justify-center py-10">
                     <div className="w-[80%] flex gap-2 items-center ">
-                        <a href="" className="font-[Poppins] text-[14px] font-regular text-[#000000] opacity-[50%]">
+                        <a href="/" className="font-[Poppins] text-[14px] font-regular text-[#000000] opacity-[50%]">
                             Account   /
                         </a>
-                        <a href="" className="font-[Poppins] text-[14px] font-regular text-[#000000] opacity-[50%]">
+                        <a href="/" className="font-[Poppins] text-[14px] font-regular text-[#000000] opacity-[50%]">
                             My Account /
                         </a>
-                        <a href="" className="font-[Poppins] text-[14px] font-regular text-[#000000] opacity-[50%]">
+                        <a href="product_details" className="font-[Poppins] text-[14px] font-regular text-[#000000] opacity-[50%]">
                             Product /
                         </a>
-                        <a href="" className="font-[Poppins] text-[14px] font-regular text-[#000000] opacity-[50%]">
+                        <a href="cart" className="font-[Poppins] text-[14px] font-regular text-[#000000] opacity-[50%]">
                             View Cart /
                         </a>
                         <a href="checkout" className="font-[Poppins] text-[14px] font-regular text-[#000000] ">
@@ -205,10 +205,10 @@ export const Checkout = () => {
                                                 <span className="font-[Poppins] font-regular text-[16px] text-[#000000] ">Bank</span>
 
                                                 <div className="flex gap-2 ml-auto">
-                                                    <img src={check_1} className="w-8" />
-                                                    <img src={check_2} className="w-8" />
-                                                    <img src={check_3} className="w-8" />
-                                                    <img src={check_4} className="w-8" />
+                                                    <img src={check_1} alt="check1" className="w-8" />
+                                                    <img src={check_2} alt="check1" className="w-8" />
+                                                    <img src={check_3} alt="check1" className="w-8" />
+                                                    <img src={check_4} alt="check1" className="w-8" />
                                                 </div>
                                             </label>
 

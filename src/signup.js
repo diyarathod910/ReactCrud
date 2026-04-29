@@ -117,7 +117,7 @@ export const SignUp = () => {
                 <section className="w-full flex justify-center mt-10">
                     <div className="w-[80%] flex justify-between">
                         <div className="w-[50%]">
-                            <img src={signUp} className="w-[100%]"></img>
+                            <img src={signUp} alt="signup" className="w-[100%]"></img>
                         </div>
                         <div className="w-[35%] flex flex-col gap-[20px] justify-center">
                             <h1 className="font-[Inter] font-medium text-[36px] text-[#000000]">Create an account</h1>

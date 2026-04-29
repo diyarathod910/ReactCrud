@@ -96,7 +96,7 @@ export const Login = () => {
                 <section className="w-full flex justify-center mt-10">
                     <div className="w-[80%] flex justify-between">
                         <div className="w-[50%]">
-                            <img src={signUp} className="w-[100%]"></img>
+                            <img src={signUp} alt="signup" className="w-[100%]"></img>
                         </div>
                         <div className="w-[35%] flex flex-col gap-[20px] justify-center">
                             <h1 className="font-[Inter] font-medium text-[36px] text-[#000000]">Log in to Exclusive</h1>
@@ -107,7 +107,7 @@ export const Login = () => {
 
                             <div className="flex justify-between items-center mt-5">
                                 <button type="button" onClick={handleLogin} className="bg-[#DB4444] py-3 text-white hover:cursor rounded-[4px] w-[25%]">Log In</button>
-                                <a href="#" className="font-[Poppins] font-regular text-[16px] text-[#DB4444]">Forget Password?</a>
+                                <button href="#" className="font-[Poppins] font-regular text-[16px] text-[#DB4444]">Forget Password?</button>
                             </div>
                         </div>
                     </div>
