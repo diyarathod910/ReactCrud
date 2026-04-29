@@ -119,7 +119,7 @@ export const About = () => {
                             </p>
                         </div>
                         <div className="w-[50%] ">
-                            <img src={about_photo} alt="about photo" className="w-full"></img>
+                            <img src={about_photo} alt="about us photo" className="w-full"></img>
                         </div>
                     </div>
                 </section>
